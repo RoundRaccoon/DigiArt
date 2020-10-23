@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.cruciada.MainActivity">
+
+    <item
+        android:id="@+id/addIcon"
+        app:showAsAction="always"
+        android:icon="@drawable/libraryplus"
+        android:title="Adauga lucrare" />
+
+    <item
+        android:id="@+id/rezultate"
+        android:orderInCategory="3"
+        android:title="Rezultate curente"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/getId"
+        android:orderInCategory="1"
+        android:title="Codul concursului"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/compDetalis"
+        android:orderInCategory="2"
+        android:title="Detalii concurs"
+        app:showAsAction="never" />
+
+
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actvity_post"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="a10m3.cruciada.PostActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="275dp"
+            android:src="@drawable/addimage2"
+            android:background="#FFFFFF"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:onClick="profilePicSelection"
+            android:id="@+id/imageButton" />
+
+    </RelativeLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titlu"
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editName"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descriere (optional)"
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editDesc"
+        android:maxLines="3"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GATA"
+        android:id="@+id/gata"
+        android:layout_marginTop="10dp"
+
+        />
+
+</LinearLayout>

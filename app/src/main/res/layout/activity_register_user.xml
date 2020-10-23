@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="a10m3.cruciada.RegisterUserActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:src="@drawable/graffiti"/>
+
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NUME"
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="EMAIL"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/passRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PAROLĂ"
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:maxLines="1"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/passRegisterConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CONFIRMARE PAROLĂ"
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/createAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:text="CREEAZĂ"
+        android:textSize="25dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

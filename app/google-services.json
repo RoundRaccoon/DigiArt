@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "677144088248",
+    "firebase_url": "https://cruciada-a93ad.firebaseio.com",
+    "project_id": "cruciada-a93ad",
+    "storage_bucket": "cruciada-a93ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677144088248:android:b949f95c3731f9eb",
+        "android_client_info": {
+          "package_name": "a10m3.cruciada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677144088248-20u28b2a4sv0v60p46fua1847o6gge18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "a10m3.cruciada",
+            "certificate_hash": "662750d9ad23ba94ea36d43b708d9692fd40cb10"
+          }
+        },
+        {
+          "client_id": "677144088248-4ihh48ulbcrsdqsf6gf98hv8lql4oia0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "a10m3.cruciada",
+            "certificate_hash": "eabdafd0e8e307bf6ecc7bc35cd717b2188fd738"
+          }
+        },
+        {
+          "client_id": "677144088248-9i71cm0hq5m5q5ubdrhemnrfcgi7uvvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_iTB5YNfGzW4OgfnWYMfWZGXNG2A7ov4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677144088248-9i71cm0hq5m5q5ubdrhemnrfcgi7uvvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

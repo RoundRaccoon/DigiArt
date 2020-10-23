@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DigiArt</string>
+    <string name="title_activity_cruciada_home">CruciadaHome</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="account_spinner">
+        <item>Vizitator</item>
+        <item>Concurent</item>
+        <item>Jurat</item>
+    </string-array>
+    <string name="title_activity_start">StartActivity</string>
+
+</resources>
